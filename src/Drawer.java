@@ -44,6 +44,8 @@ public class Drawer extends JPanel implements MouseListener {
 
         graphics2D.setColor(new Color(40, 42, 54));
         graphics2D.fillRect(0, 0, dimension.width, dimension.height);
+        graphics2D.setColor(new Color(28, 29, 38));
+        graphics2D.fillRect(0, 0, dimension.width-178, dimension.height-85);
         startX = 0;
         startY = 0;
 
